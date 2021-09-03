@@ -1,0 +1,23 @@
+.sales-two-examples{
+    margin: 30px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: calc(50% - 60px);
+    background-color: rgb(240, 240, 240);
+    max-width: 650px;
+}
+
+.sales-two-examples__img-wrap{
+    margin-bottom: 15px;
+    width: 95%;
+    height: 160px;
+    overflow: hidden;
+
+}
+.sales-two-examples__img{
+    width: 100%;
+}
+
+/* */

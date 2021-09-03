@@ -1,0 +1,133 @@
+
+.product-page__img {
+    width: 560px;
+    max-height: 540px;
+}
+
+.product-page__tools{
+    margin-left: 72px;
+    padding-left: 15px;
+    flex-basis: 45%;
+    max-width: 540px;
+    min-height: 500px;
+}
+
+.product-page__wrap{
+    padding-left: 0;
+    padding-top: 180px;
+    background-color: #ECECEC;
+}
+
+.product-page__info-wrap{
+    padding: 20px 0 20px 0;
+    width: 90%;
+    background-color: white;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+}
+
+.product-page__desc {
+    
+}
+
+.product-page__category{
+    color:rgb(161, 157, 157);
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.product-page__add-to-basket-btn {
+    cursor: pointer;
+    height: 36px;
+    margin-left: 15px;
+}
+
+.product-page__change-value-btn{
+    background-color: rgb(56, 54, 54);
+    color:white;
+    border: 0;
+    height: 36px;
+    width: 36px;
+}
+
+.left-radius {
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+}
+
+.right-radius {
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.product-page__products-amount{
+    height: 36px;
+    padding-left: 10px;
+    width: 72px;
+}
+
+.product-page__desc-item{
+    padding:0 0 10px 10px;
+    list-style: none;
+}
+
+.product-page__product-name {
+    font-size: 36px;
+    padding: 10px 0 0 0;
+}
+
+.product-page__price{
+    padding: 10px 0 10px 0;
+}
+
+.product-page__add-to-basket-wrap{
+    padding-bottom: 15px;
+}
+
+.product-page__add-to-fav{
+    padding-top: 15px;
+}
+
+.product-page__add-to-fav--pointer{
+    cursor: pointer;
+}
+
+.product-page__desc-header{
+    padding: 15px 0 10px 0;
+}
+.product-page__mobile{
+    display: none;
+}
+
+@media(max-width:600px){
+    .product-page__wrap{
+        padding-top: 90px;
+    }
+    .product-page__info-wrap{
+        padding: 10px;
+        width: 90%;
+        flex-direction: column;
+    }
+    .product-page__tools{
+        padding: 20px 0;
+        margin-left: 0;
+        padding-left: 15px;
+        flex-basis: 65%;
+
+    }
+    .product-page__img {
+        width: 320px;
+        max-height: 270px;
+    }
+    .product-page__product-name {
+
+        display: none;
+    }
+    .product-page__add-to-fav{
+        display: none;
+    }
+    .product-page__mobile{
+        display: block;
+    }
+}

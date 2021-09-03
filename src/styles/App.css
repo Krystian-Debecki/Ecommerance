@@ -1,0 +1,42 @@
+*{ 
+    transition: .2s;
+    transition: .2s;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    opacity: .9;
+}
+
+body{
+    background-color: rgb(244, 244, 248);
+}
+
+
+.input-text{
+    border: 0;
+}
+
+
+.content {
+    background-color: #ECECEC;;
+    display: flex;
+}
+
+
+
+input:focus{
+    outline:none;
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+

@@ -1,0 +1,98 @@
+.nav{
+    padding-right: 36px;
+    flex-basis: 216px;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    line-height: 64px;
+    list-style: none;
+}
+.nav__item{
+    padding-top: 15px;
+    position: relative;
+    width: 96px;
+    height: 64px;
+}
+
+
+.nav__basket-items {
+    text-align: center;
+    z-index: 10;
+    position: absolute;
+    top:100%;
+    left: 50%;
+    transform: translateY(-120%);
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    background-color: tomato;
+    line-height: 25px;
+}
+
+.nav__favs-items{
+    background-color: rgb(112, 187, 37);
+}
+
+.nav a{
+    color:white;
+}
+
+.nav__user-logged{
+    color:rgb(218, 155, 72);
+}
+
+.nav__hidden-element{
+    display: none;
+}
+
+.nav__burger{
+    text-align: center;
+    position: relative;
+    display: none;
+}
+.st0__fav{
+    fill:none;
+    stroke:#fffefe;
+    stroke-width:10;
+    stroke-miterlimit:10;
+}
+.fav-icon{
+    width: 35px;
+}
+
+.basket-icon{
+    enable-background:new 0 0 100 100;
+    width: 45px;
+}
+.st0-basket{fill:none;stroke:#ffffff;stroke-width:4;stroke-miterlimit:10;}
+.st1-basket{fill:#ffffff;stroke:#ffffff;stroke-miterlimit:10;}
+.st2-basket{fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10;}
+
+.burger-icon{
+    cursor: pointer;
+    width: 45px;
+}
+.st0-burger{fill:#ffffff; stroke:#ffffff;stroke-miterlimit:10;}
+
+.nav__no-burger{
+    
+}
+
+.nav__burger-off{
+    cursor: pointer;
+    font-size: 45px;
+}
+
+@media ( max-width: 1160px) {
+    .nav{
+        padding: 0;
+        flex-basis: auto;
+    }
+    .nav__no-burger{
+        display: none;
+    }
+    .nav__burger{
+        padding-right: 30px;
+        display: block;
+    }
+}

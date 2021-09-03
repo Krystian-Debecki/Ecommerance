@@ -1,0 +1,39 @@
+.basket{
+    margin-top: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.basket__product-list{
+    padding: 25px 0 25px 0;
+    background-color: white;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    height: auto;
+    flex-basis: 60%;
+}
+
+.basket__tools{
+    color: rgb(175, 171, 171);
+    padding: 60px 0 60px 20px;
+    background-color: rgb(241, 239, 238);
+    flex-basis: 20%;
+    height: auto;
+}
+
+.basket__full-price{
+    font-size: 20px;
+    margin-bottom:15px ;
+    color: black;
+    letter-spacing: 1.2px;
+}
+
+@media(max-width:600px){
+    .basket__tools{
+        flex-basis: 100%;
+    }
+    
+}

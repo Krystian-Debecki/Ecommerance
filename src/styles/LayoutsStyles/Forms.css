@@ -1,0 +1,42 @@
+.form{
+    align-items: center;
+    padding: 60px 30px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid rgb(236, 99, 19);
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border-radius: 10px;
+    border: 1px solid rgb(161, 161, 153);
+    padding-left: 20px;
+    font-size: 16px ;
+    height: 36px ;
+}
+.input:focus{
+    border: 1px solid rgb(228, 160, 33) !important;
+}
+.label__text{
+    flex: 100px;
+}
+.label__btn{
+    margin-top:35px ;
+    width: 150px;
+    padding: 10px 0;
+}
+.label{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 5px;
+    font-size: 18px;
+    width: 350px;
+}
+.register-yourself{
+    margin-top: 20px;
+}
+
+.register-yourself__link{
+    color:orange;
+}

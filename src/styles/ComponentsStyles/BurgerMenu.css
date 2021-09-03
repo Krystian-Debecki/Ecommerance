@@ -1,0 +1,20 @@
+.burger{
+    display: none;
+    right:0;
+    position: absolute;
+    top:72px;
+    list-style: none;
+}
+
+.burger__item{
+    background-color: rgb(37, 35, 35);
+    height: 50px;
+    width: 200px;
+}
+
+@media (max-width: 1160px){
+    .burger{
+        display: block;
+    }
+}
+

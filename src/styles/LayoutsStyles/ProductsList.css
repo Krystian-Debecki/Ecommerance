@@ -1,0 +1,17 @@
+.product-list{
+    padding-left: 270px;
+    align-items: flex-start;
+    background-color: #ECECEC !important;
+}
+
+@media( max-width:1660px){
+    .product-list{
+        padding-left: 300px;
+    }
+}
+
+@media( max-width:1100px){
+    .product-list{
+        padding-left: 0;
+    }
+}
