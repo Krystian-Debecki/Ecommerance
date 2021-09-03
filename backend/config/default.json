@@ -1,6 +1,6 @@
 {
     "PORT": 3100,
-    "ATLAS_URL": "mongodb+srv://darken:qwaszxerdfcv1@cluster0.xtf1r.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "ATLAS_URL": "",
     "TOKEN_PASSWORD": "/^daiV>$ys(#1",
     "SALT": 20
 }
